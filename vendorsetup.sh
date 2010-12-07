@@ -8,3 +8,4 @@ add_lunch_combo mau5_espresso-eng
 add_lunch_combo mau5_liberty-eng
 add_lunch_combo mau5_legend-eng
 add_lunch_combo mau5_dream_sapphire-eng
+add_lunch_combo mau5_heroc-eng
