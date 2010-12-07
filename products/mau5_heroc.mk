@@ -17,13 +17,6 @@ PRODUCT_COPY_FILES += \
     vendor/ctso/prebuilt/common/bin/setdefcols.sh:system/bin/setdefcols.sh \
     vendor/ctso/prebuilt/common/sounds/SometimesThingsGet.ogg:system/media/audio/ringtones/SometimesThingsGet.ogg
 
-## passion stuff ##
-
-PRODUCT_PROPERTY_OVERRIDES += \
-    rild.libpath=/system/lib/librilswitch.so \
-    rilswitch.vendorlibpath=/system/lib/libhtc_ril.so \
-    rilswitch.ganlibpath=/system/lib/libganril.so
-
 
 PRODUCT_PACKAGES += Mau5Wallpapers
 PRODUCT_PACKAGES += ThemeDefaults
